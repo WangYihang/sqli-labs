@@ -1,8 +1,15 @@
 {
-    "plugins": ["disqus"],
+    "plugins": [
+        "disqus",
+        "github",
+        "search"
+    ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "sqli-labs"
+        },
+        "github": {
+            "url": "https://github.com/wangyihang/sqli-labs" 
         }
     }
 }
