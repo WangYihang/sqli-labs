@@ -9,7 +9,7 @@ module.exports = {
     gitbook: '3.1.1',
 
     // Use the "official" theme
-    plugins: ['theme-official@2.1.1', '-sharing', '-fontsettings', 'sitemap'],
+    plugins: ['disqus', 'theme-official@2.1.1', '-sharing', '-fontsettings', 'sitemap'],
 
     variables: {
         version: pkg.version
@@ -18,6 +18,9 @@ module.exports = {
     pluginsConfig: {
         sitemap: {
             hostname: 'https://toolchain.gitbook.com'
+        },
+        disqus: {
+            shortName: 'sqli-labs'
         }
     }
 };
